@@ -1,0 +1,38 @@
+﻿@model IPagedList<MaskeSatisProject.Entities.ComplexType.MaskDetails>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@using PagedList
+@using PagedList.Mvc
+<div id="alertdiv" style="text-align:center;font-size:x-large" class="alert-info">@TempData["MaskCount"].ToString() masks have been purchased so far</div>
+<br />
+<div id="titleDiv" style="text-align:center;font-size:x-large;font-family:'Times New Roman'">Don't have a mask yet?</div>
+<br />
+<div id="buttondiv" style="background-color:lightgrey;text-align:center;">
+    <a href="~/BuyMask/Confirm" class="btn btn-default btn-lg" style="margin-top:25px;margin-bottom:25px">Buying Mask!</a>
+</div>
+<br />
+<div id="tabletitleDiv" style="text-align:center;font-family:'Times New Roman';font-size:x-large">MY MASK TRANSACTİONS </div>
+<hr />
+@foreach (var mask in Model)
+{
+
+    <table class="table table-bordered">
+        <tr>
+            <th>User ID</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Operation Date</th>
+        </tr>
+        <tr>
+            <th>@mask.UserId</th>
+            <th>@mask.FirstName</th>
+            <th>@mask.LastName</th>
+            <th>@mask.OperationDate.ToString("dd-MM-yyyy")</th>
+        </tr>
+    </table>
+
+}
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
+

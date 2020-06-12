@@ -1,0 +1,49 @@
+﻿@model MaskeSatisProject.Entities.Concrete.Users
+@{
+    ViewBag.Title = "Confirm";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div id="alertdiv" style="text-align:center;font-size:x-large" class="alert-info"> Confirm purchase get the mask! </div>
+
+@using (Html.BeginForm())
+{
+    <div class="row justify-content-center" style="text-align:center">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <br />
+                    <div class="form-group row">
+                        <label for="full_name" class="col-md-4 col-form-label text-md-right">First Name</label>
+                        <div class="col-md-6">
+                            @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", @readonly = "readonly" })
+                            @Html.HiddenFor(m => m.UserId)
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="email_address" class="col-md-4 col-form-label text-md-right">Last Name</label>
+                        <div class="col-md-6">
+                            @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", @readonly = "readonly" })
+                        </div>
+
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="user_name" class="col-md-4 col-form-label text-md-right">User UID</label>
+                        <div class="col-md-6">
+                            @Html.TextBoxFor(model => model.TcNo, new { @class = "form-control", @readonly = "readonly" })
+                        </div>
+                    </div>
+                    <div class="col-md-12 offset-md-4" style="text-align:center;margin-left:65px">
+                        <button type="submit" id="buymaskButton" class="btn btn-default btn-lg">
+                            Confirm
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+
+

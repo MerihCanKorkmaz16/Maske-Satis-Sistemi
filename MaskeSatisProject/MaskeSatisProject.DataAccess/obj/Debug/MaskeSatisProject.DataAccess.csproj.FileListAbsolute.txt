@@ -1,0 +1,14 @@
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.DataAccess.dll.config
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.DataAccess.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.DataAccess.pdb
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.Entities.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.Entities.pdb
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\obj\Debug\MaskeSatisProject.DataAccess.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\obj\Debug\MaskeSatisProject.DataAccess.csproj.CopyComplete
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\obj\Debug\MaskeSatisProject.DataAccess.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\obj\Debug\MaskeSatisProject.DataAccess.pdb
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.DataAccess\bin\Debug\MaskeSatisProject.Entities.dll.config

@@ -1,0 +1,14 @@
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\MaskeSatisProject.Entities.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\MaskeSatisProject.Entities.pdb
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\obj\Debug\MaskeSatisProject.Entities.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\obj\Debug\MaskeSatisProject.Entities.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\obj\Debug\MaskeSatisProject.Entities.pdb
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\FluentValidation.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\FluentValidation.xml
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\obj\Debug\MaskeSatisProject.Entities.csproj.CopyComplete
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\MaskeSatisProject.Entities.dll.config
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\EntityFramework.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\EntityFramework.xml
+C:\Users\ass\Desktop\Professional projelerim\MaskeSatisProject\MaskeSatisProject.Entities\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,88 @@
+﻿@model MaskeSatisProject.Entities.Concrete.Users
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Maske Satış Sistemi</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+   
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <div class="container">
+            
+            <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="panel-title">T.C. SAĞLIK BAKANLIĞI</div>
+                        <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Şifrenizi mi unuttunuz?</a></div>
+                    </div>
+                    <div style="padding-top:30px" class="panel-body">
+                        <span>
+                            
+                            @Html.ValidationMessage("LogError", new { @class = "text-danger" })
+                            <br />
+                            @Html.ValidationMessageFor(model => model.TcNo, "", new { @class = "text-danger" })
+                            <br />
+                            @Html.ValidationMessageFor(model => model.Sifre, "", new { @class = "text-danger" })
+
+                        </span>
+                        <form id="loginform" class="form-horizontal" role="form">
+
+                            <div style="margin-bottom: 25px" class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input id="tcno" type="text" class="form-control" name="tcno" value="" maxlength="11" placeholder="Tc kimlik numaranız">
+                            </div>
+
+                            <div style="margin-bottom: 25px" class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input id="sifre" type="password" class="form-control" name="sifre" placeholder="Şifreniz">
+                            </div>
+                            <div class="input-group">
+                                <div class="checkbox">
+                                    <label>
+                                        <input id="login-remember" type="checkbox" name="remember" value="1"> Beni Hatırla
+                                    </label>
+                                </div>
+                            </div>
+
+
+                            <div style="margin-top:10px" class="form-group">
+                                <!-- Button -->
+
+                                <div class="col-sm-12 controls">
+                                    <input id="btn-login" type="submit" value="Giriş" class="btn btn-success" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 control">
+                                    <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                                        Kayıtlı değil misiniz?
+                                        <a href="~/Register/SaveUser">
+                                            Kayıt ol
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>
